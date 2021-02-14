@@ -1,0 +1,148 @@
+body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #0f3057;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #00587a;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h3 {
+  color: #0f3057;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 25px;
+  width: 300px;
+}
+
+p {
+  color: #0f0f0f;
+  font-family: "Raleway", sans-serif;
+}
+
+.header p {
+  text-align: center;
+}
+
+.weather-today {
+  background-color: #f4f4f4;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.weather-today p {
+  margin: 0 auto;
+}
+
+.day {
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.city {
+  color: #fd6d41;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.temperature {
+  font-size: 28px;
+  font-weight: 900;
+  color: #fd6d41;
+}
+.other-infos {
+  font-size: smaller;
+}
+
+.current-location-button {
+  margin: 15px auto;
+  max-width: 150px;
+  border: solid 1px;
+  border-radius: 2px;
+  color: #fd6d41;
+  font-size: smaller;
+  font-weight: 700px;
+  border-color: #fd6d41;
+  background-color: #ffffff;
+}
+
+.weather-next-days div {
+  margin: 0 auto;
+}
+
+.next-days {
+  background-color: #f4f4f4;
+  margin: 2px;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.next-days p {
+  color: #fd6d41;
+  font-weight: 700;
+  font-size: 22px;
+  margin: 0;
+}
+
+.next-days span {
+  color: #0f0f0f;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.change-city {
+  padding-top: 25px;
+}
+.change-city p {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.change-city button {
+  background-color: #0f3057;
+  border-color: #0f3057;
+}
+
+.change-city button:hover {
+  background-color: #ffffff;
+  border-color: #0f3057;
+  color: #0f3057;
+}
+
+.footer {
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer a {
+  color: #0f0f0f;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
